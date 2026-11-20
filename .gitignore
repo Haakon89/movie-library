@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and local config (never commit your API key!)
+.env
+
+# Local data: the database and cached images are rebuilt from your files
+backend/data/
+
+# Test films created by scripts/make_sample_films.py
+sample_films/
+
+# Node / frontend (for stage 2)
+node_modules/
+dist/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

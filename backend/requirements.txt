@@ -1,0 +1,15 @@
+# Web framework and the server that runs it
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# Reads title/year out of messy file names like "The.Matrix.1999.1080p.mkv"
+guessit>=3.8
+
+# Loads settings from the .env file
+python-dotenv>=1.0
+
+# HTTP client, used in stage 3 to talk to TMDB
+httpx>=0.27
+
+# Testing
+pytest>=8.0
